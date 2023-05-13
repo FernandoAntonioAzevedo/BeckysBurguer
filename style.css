@@ -50,7 +50,7 @@ body {
 
 .navigation ul li a {
     color: var(--dark);
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 500;
     transition: all 0.5s;    
 }
@@ -127,7 +127,7 @@ body {
     background: #fc4c35;
 }
 
-.home-img {
+.home-img img {
     width: 100%;
 }
 
@@ -144,7 +144,7 @@ body {
     .menu.ativo .bar:nth-child(2) {
         opacity: 0;
     }
-    .menu.ativo bar:nth-child(3) {
+    .menu.ativo .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
