@@ -97,3 +97,59 @@ body {
     max-width: 37rem;
     
 }
+
+.home-text .text-h4 {
+    font-size: 1.5rem;
+    color: var(--red);
+    margin-bottom: 1rem;;
+}
+
+.home-text .text-h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+
+.home-text p {
+    margin-bottom: 4rem;
+}
+
+.home-btn {
+    padding: 15px 45px;
+    background: var(--red);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 550;
+    transition: all 0.5s;
+}
+
+.home-btn:hover {
+    background: #fc4c35;
+}
+
+.home-img {
+    width: 100%;
+}
+
+@media (max-width: 785px) {
+    .navigation {
+        padding: 18px 20px;
+    }
+    .menu {
+        display: block;
+    }
+    .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background: var(--white);
+        gap: -10px;
+        transition: 0.3s;
+    }
+    .nav-item {
+        margin: 16px 0;
+    }
+}
